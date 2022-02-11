@@ -43,12 +43,12 @@ const Image = styled.img`
   object-fit: cover;
   width: 45%;
 
-  @media screen and (min-width: 698px) and (max-width: 898px) {
+  @media screen and (min-width: 798px) and (max-width: 1098px) {
     width: 30%;
     height: 100vh;
   }
 
-  @media screen and (min-width: 400px) and (max-width: 698px) {
+  @media screen and (min-width: 400px) and (max-width: 798px) {
     width: 25%;
     height: 100vh;
   }
@@ -69,7 +69,12 @@ const VegImage = styled.img`
   object-fit: cover;
   width: 55%;
 
-  @media screen and (min-width: 350px) and (max-width: 898px) {
+  @media screen and (min-width: 798px) and (max-width: 1098px) {
+    width: 40%;
+    height: 100vh;
+  }
+
+  @media screen and (min-width: 350px) and (max-width: 798px) {
     width: 35%;
     height: 100vh;
   }

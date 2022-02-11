@@ -6,6 +6,10 @@ const Container = styled.div`
   display: flex;
   align-items: center;
 
+  @media screen and (min-width: 898px) and (max-width: 1098px) {
+    margin: 0 30px;
+  }
+
   @media screen and (min-width: 280px) and (max-width: 898px) {
     margin: 0 0 0 20px;
   }
@@ -24,7 +28,11 @@ const MiniContainer = styled.div`
   justify-content: space-between;
   width: 50%;
 
-  @media screen and (min-width: 280px) and (max-width: 1100px) {
+  @media screen and (min-width: 698px) and (max-width: 1098px) {
+    width: 70%;
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 698px) {
     width: 100%;
   }
 `;
@@ -73,7 +81,16 @@ const ListItem = styled.li`
     border-bottom: 1px solid darkolivegreen;
   }
 
-  @media screen and (min-width: 698px) and (max-width: 798px) {
+  @media screen and (min-width: 698px) and (max-width: 1098px) {
+    font-size: 0.9rem;
+    padding: 0 21px;
+
+    &:hover {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (min-width: 698px) and (max-width: 698px) {
     font-size: 0.8rem;
     padding: 0 17px;
 
@@ -132,7 +149,7 @@ const Button = styled.button`
     transition: 0.3s ease-in-out;
   }
 
-  @media screen and (min-width: 280px) and (max-width: 1100px) {
+  @media screen and (min-width: 280px) and (max-width: 698px) {
     display: none;
   }
 `;

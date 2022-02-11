@@ -54,12 +54,12 @@ const Content = styled.p`
     text-align: justify;
   }
 
-  @media screen and (min-width: 350px) and (max-width: 400px) {
+  @media screen and (min-width: 360px) and (max-width: 400px) {
     font-size: 0.8rem;
     text-align: justify;
   }
 
-  @media screen and (min-width: 280px) and (max-width: 350px) {
+  @media screen and (min-width: 280px) and (max-width: 360px) {
     font-size: 0.7rem;
     text-align: justify;
   }

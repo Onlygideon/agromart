@@ -57,12 +57,12 @@ const SubHeader = styled.p`
     margin-top: 10px;
   }
 
-  @media screen and (min-width: 350px) and (max-width: 400px) {
+  @media screen and (min-width: 360px) and (max-width: 400px) {
     font-size: 0.5rem;
     margin-top: 9px;
   }
 
-  @media screen and (min-width: 280px) and (max-width: 350px) {
+  @media screen and (min-width: 280px) and (max-width: 360px) {
     font-size: 0.4rem;
     margin-top: 8px;
   }
